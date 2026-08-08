@@ -1,7 +1,18 @@
 .card {
     border: 2px solid black;
-    min-width: 10em;
-    align-items: center;
+    width: 15em;
+    text-align: center;
     padding: 1rem;
     border-radius: 1rem;
+    transition: transform 0.3s ease;
+    flex-wrap: wrap;
+}
+
+.card-link {
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
