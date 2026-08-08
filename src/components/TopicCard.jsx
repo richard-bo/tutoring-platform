@@ -1,10 +1,13 @@
 import "./TopicCard.css";
+import { Link } from "react-router-dom";
 
 function TopicCard(props) {
     return (
-        <div className = "topiccard">
-            <h2>{props.topic}</h2>
-        </div>
+        <Link to = {props.path} className = "topic-card-link">
+            <div className = "topic-card">
+                <h2>{props.topic}</h2>
+            </div>
+        </Link>
     );
 }
 
