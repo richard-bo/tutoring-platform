@@ -76,3 +76,11 @@
 .learn-section:not(.learn-section-tip):hover {
   border-color: var(--accent);
 }
+
+.example-solution {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+}

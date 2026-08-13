@@ -1,4 +1,5 @@
 import BackTo from "../components/BackTo";
+import LadderProblem from "../assets/images/related-rates-ladder.jpg";
 import './RelatedRatesLearn.css';
 
 function RelatedRatesLearn() {
@@ -13,19 +14,14 @@ function RelatedRatesLearn() {
             <section className="learn-section">
                 <h2 className="learn-section-heading">What are related rates?</h2>
                 <p className="learn-section-body">
-                    Related rates are where you find how fast one quantity is changing by relating it
-                    to another quantity whose rate of change we already know. These rates are calculated
-                    with respect to time, and we use the concepts of implicit differentiation and the
-                    chain rule to solve these problems.
+                    Related rates are where you find how fast one quantity is changing by relating it to another quantity whose rate of change we already know.These rates are calculated with respect to time, and we use the concepts of implicit differentiation and the chain rule to solve these problems.
                 </p>
             </section>
 
             <section className="learn-section">
                 <h2 className="learn-section-heading">The basic idea</h2>
                 <p className="learn-section-body">
-                    In a related rates problem, we will typically have multiple quantities changing
-                    together. We know how fast one of them is changing and want to figure out how fast
-                    another is changing at a specific moment.
+                    In a related rates problem, we will typically have multiple quantities changing together. We know how fast one of them is changing and want to figure out how fast another is changing at a specific moment.
                 </p>
             </section>
 
@@ -65,13 +61,23 @@ function RelatedRatesLearn() {
                 </ol>
             </section>
 
+            <section className = "learn-section">
+                <h2 className = "learn-section-heading">Here is a worked out example</h2>
+                <p className = "learn-section-body">A 10-foot ladder is leaning against a wall. The bottom of the ladder is sliding away from the wall at a rate of 2 ft/s. How fast is the top of the ladder sliding down the wall when the bottom of the ladder is 6 feet from the wall?</p>
+                <img src = {LadderProblem} alt = "My solution to a sliding ladder related rates problem." className = "example-solution"></img>
+                <p className = "learn-section-body">
+                    The negative sign in the final answer means the height of the ladder is decreasing, which makes sense because the ladder is sliding down the wall.
+                </p>
+
+            </section>
+
             <section className="learn-section learn-section-tip">
                 <h2 className="learn-section-heading">Tips / Things to Keep in Mind</h2>
                 <p className="learn-section-body">
-                    Make sure you do not substitute any numbers that vary with time too early.
-                    You should only do this after you differentiate.
+                    Make sure you do not substitute any numbers that vary with time too early. You should only do this after you differentiate.
                 </p>
             </section>
+
         </div>
     );
 }
