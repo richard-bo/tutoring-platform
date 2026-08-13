@@ -1,20 +1,26 @@
 .topic-card {
-    border: 2px solid black;
+    border: 2px solid var(--border);
     padding: 1rem;
-    width: 10rem;
+    width: 12rem;
     border-radius: 1rem;
     text-align: center;
     transition: transform 0.5s ease;
-    height: 10rem;
+    height: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    background:var(--surface);
+}
+
+.topic {
+    color:var(--text-main);
 }
 
 .topic-card-link {
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 .topic-card:hover {
     transform: scale(1.1);
+    border-color: var(--accent);
 }

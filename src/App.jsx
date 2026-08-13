@@ -6,6 +6,9 @@ import Calc1 from './pages/Calc1';
 import Calc2 from './pages/Calc2';
 import RelatedRates from "./pages/RelatedRates";
 import Optimization from "./pages/Optimization";
+import RelatedRatesLearn from "./pages/RelatedRatesLearn";
+import RelatedRatesPractice from "./pages/RelatedRatesPractice";
+import RelatedRatesResources from "./pages/RelatedRatesResources";
 import { Routes, Route } from "react-router-dom";
 
 
@@ -28,6 +31,9 @@ function App() {
           <Route path = "/calc2" element={<Calc2/>}></Route>
           <Route path = "/calc1/related-rates" element = {<RelatedRates/>}></Route>
           <Route path = "/calc1/optimization" element = {<Optimization/>}></Route>
+          <Route path = "/calc1/related-rates/learn" element = {<RelatedRatesLearn/>}/>
+          <Route path = "/calc1/related-rates/practice" element = {<RelatedRatesPractice/>}/>
+          <Route path = "/calc1/related-rates/resources" element = {<RelatedRatesResources/>}/>
       </Routes>
     </div>
     

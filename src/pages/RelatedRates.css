@@ -1,0 +1,19 @@
+.title {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.discription {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.LPRButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--surface);
+}

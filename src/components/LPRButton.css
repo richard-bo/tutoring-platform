@@ -1,0 +1,17 @@
+.LPRButton {
+    color: var(--text-main);
+    background-color: var(--surface);
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-size: 3rem;
+    border: 2px solid var(--border);
+    padding: 1rem 2rem;
+    transition: transform 0.5s ease;
+
+}
+
+.LPRButton:hover {
+    transform: scale(1.1);
+    border-color:var(--accent);
+}

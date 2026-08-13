@@ -1,13 +1,13 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: lightblue;
+    background-color: var(--surface);
     align-items: center;
     padding: 1rem 2rem;
+    border-bottom: 1px solid var(--border);
 }
 
 .links {
-
     list-style-type: none; 
     padding: 0;            
     margin: 0;
@@ -16,18 +16,18 @@
 }
 
 .links a {
-    color: darkblue;
+    color: var(--text-secondary);
     text-decoration: none;
+    transition: color 0.2s;
 }
 
 .links a:hover {
-    color: pink;
+    color: var(--text-primary);
 }
 
 .logolink {
-    color: black;
+    color: var(--text-primary);
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
 }
-   

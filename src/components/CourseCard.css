@@ -1,11 +1,13 @@
 .card {
-    border: 2px solid black;
+    border: 2px solid var(--border);
     width: 15em;
     text-align: center;
     padding: 1rem;
     border-radius: 1rem;
     transition: transform 0.3s ease;
     flex-wrap: wrap;
+    color: var(--text-main);
+    background-color: var(--surface);
 }
 
 .card-link {
@@ -15,4 +17,5 @@
 
 .card:hover {
     transform: scale(1.1);
+    border-color: var(--accent);
 }

@@ -5,7 +5,7 @@ function TopicCard(props) {
     return (
         <Link to = {props.path} className = "topic-card-link">
             <div className = "topic-card">
-                <h2>{props.topic}</h2>
+                <h2 className = "topic">{props.topic}</h2>
             </div>
         </Link>
     );
