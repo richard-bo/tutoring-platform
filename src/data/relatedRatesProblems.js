@@ -1,3 +1,10 @@
+import Solution1 from "../assets/images/related-rates-1.jpg";
+import Solution2 from "../assets/images/related-rates-2.jpg";
+import Solution3 from "../assets/images/related-rates-3.jpg";
+import Solution4 from "../assets/images/related-rates-4.jpg";
+import Solution5 from "../assets/images/related-rates-5.jpg";
+import Solution6 from "../assets/images/related-rates-6.jpg";
+
 const relatedRatesProblems = [
     {
         number: 1,
@@ -7,7 +14,7 @@ const relatedRatesProblems = [
             "What equation relates the area of a circle to its radius?",
             "Differentiate both sides with respect to time. Remember that the radius is changing with time."
         ],
-        solution: null
+        solution: Solution1
     },
     {
         number: 2,
@@ -17,7 +24,7 @@ const relatedRatesProblems = [
             "Find an equation relating the volume of a sphere to its radius.",
             "Differentiate with respect to time using the chain rule, then isolate the unknown."
         ],
-        solution: null
+        solution: Solution2
     },
     {
         number: 3,
@@ -27,7 +34,7 @@ const relatedRatesProblems = [
             "Notice this creates a right triangle, what equation do we typically use here?",
             "Remember that the length of the ladder is constant."
         ],
-        solution: null
+        solution: Solution3
     },
     {
         number: 4,
@@ -37,7 +44,7 @@ const relatedRatesProblems = [
             "Use the Pythagorean Theorem.",
             "Both cars are moving, so both distances are changing with time."
         ],
-        solution: null
+        solution: Solution4
     },
     {
         number: 5,
@@ -47,7 +54,7 @@ const relatedRatesProblems = [
             "Similar triangles.",
             "Express the radius in terms of the height and substitute into the volume equation before differentiating."
         ],
-        solution: null
+        solution: Solution5
     },
     {
         number: 6,
@@ -57,7 +64,7 @@ const relatedRatesProblems = [
             "We can use similar triangles to relate two distances.",
             "Remember what the question is asking for."
         ],
-        solution: null
+        solution: Solution6
     }
 ];
 

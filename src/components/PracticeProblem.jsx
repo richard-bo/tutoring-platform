@@ -30,8 +30,11 @@ function PracticeProblem(props) {
 
             {showSolution && (
                 <div className="practice-solution">
-                    <h3>Solution</h3>
-                    {props.solution}
+                <h3>Solution</h3>
+                 <img
+                    src={props.solution}
+                    alt={`Worked solution to problem ${props.number}`}
+                />
                 </div>
             )}
         </section>
