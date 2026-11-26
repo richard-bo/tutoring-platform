@@ -1,3 +1,10 @@
+import Solution1 from "../assets/images/optimization-1.jpg";
+import Solution2 from "../assets/images/optimization-2.jpg";
+import Solution3 from "../assets/images/optimization-3.jpg";
+import Solution4 from "../assets/images/optimization-4.jpg";
+import Solution5 from "../assets/images/optimization-5.jpg";
+import Solution6 from "../assets/images/optimization-6.jpg";
+
 const optimizationProblems = [
     {
         number: 1,
@@ -7,7 +14,7 @@ const optimizationProblems = [
             "Use the fact that the sum of the two numbers is 50 to find your constraint equation.",
             "Rewrite the constraint and sub it into the objective."
         ],
-        solution: null
+        solution: Solution1
     },
     {
         number: 2,
@@ -17,7 +24,7 @@ const optimizationProblems = [
             "If one side does not matter anymore, how does the constraint differ?",
             "Use the 200 feet of fencing to express one dimension in terms of the other."
         ],
-        solution: null
+        solution: Solution2
     },
     {
         number: 3,
@@ -27,7 +34,7 @@ const optimizationProblems = [
             "After cutting out the squares, what are the length, width, and height of the box in terms of x?",
             "Write the volume equation and differentiate."
         ],
-        solution: null
+        solution: Solution3
     },
     {
         number: 4,
@@ -37,7 +44,7 @@ const optimizationProblems = [
             "Use the given volume to create your constraint equation.",
             "Solve the volume equation for the height and substitute it into the surface area equation before differentiating."
         ],
-        solution: null
+        solution: Solution4
     },
     {
         number: 5,
@@ -47,7 +54,7 @@ const optimizationProblems = [
             "A point on the parabola can be written as (x, x²).",
             "Minimize the square of the distance instead, it makes the calculus a lot easier."
         ],
-        solution: null
+        solution: Solution5
     },
     {
         number: 6,
@@ -57,7 +64,7 @@ const optimizationProblems = [
             "How do you find a cost equation?",
             "Use the volume constraint to eliminate h from your total cost equation before differentiating."
         ],
-        solution: null
+        solution: Solution5
     }
 ];
 
