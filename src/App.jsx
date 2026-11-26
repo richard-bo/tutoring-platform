@@ -11,6 +11,7 @@ import RelatedRatesPractice from "./pages/RelatedRatesPractice";
 import RelatedRatesResources from "./pages/RelatedRatesResources";
 import OptimizationLearn from "./pages/OptimizationLearn";
 import OptimizationPractice from "./pages/OptimizationPractice";
+import OptimizationResources from "./pages/OptimizationResources";
 import { Routes, Route } from "react-router-dom";
 
 
@@ -38,6 +39,7 @@ function App() {
           <Route path = "/calc1/related-rates/resources" element = {<RelatedRatesResources/>}/>
           <Route path = "/calc1/optimization/learn" element = {<OptimizationLearn/>}/>
           <Route path = "/calc1/optimization/practice" element = {<OptimizationPractice/>}/>
+          <Route path = "/calc1/optimization/resources" element = {<OptimizationResources/>}/>
       </Routes>
     </div>
     
